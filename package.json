@@ -1,0 +1,14 @@
+{
+  "name": "devoirs-carmen-2022-2023",
+  "private": true,
+  "scripts": {
+    "prestart": "rimraf dist",
+    "start": "eleventy --quiet --serve --port=3000",
+    "prebuild": "rimraf dist",
+    "build": "eleventy --quiet"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "rimraf": "^4.3.0"
+  }
+}
